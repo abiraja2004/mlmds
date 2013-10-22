@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Skranji:700);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+html{
+    margin: 0;
+    padding: 0;
+    background: black;
+   
+    font-family: 'Berkshire Swash', cursive;
+}
+#big_wrapper{
+    width: 1200px;
+    margin: 20px auto;
+     display: none;
+     
+   
+    
+}
+#header{
+    width: 1400px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Skranji', cursive;
+    
+}
+#left_side{
+    
+    width: 700px;
+    background: white;
+    padding-left: 40px;
+   
+    float: left;
+    border-radius: 25px;
+    border: 8px solid red;
+    text-align: center;
+    /*-moz-transition-duration: 2s;
+    -webkit-transition-duration: 2s;*/
+    box-shadow: 0px 0px 30px white;
+}
+
+#right_side{
+     min-height: 300px;
+    border: 8px solid red;
+    width: 300px;
+    
+    background: -webkit-linear-gradient(top,#ffffff 0%,#000000 100%);
+    float: left;
+    margin-left: 30px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 30px white;
+    color: white;
+}
+#left_side:hover{
+    box-shadow: -5px -5px 20px white;
+}
+ #right_side:hover{
+    box-shadow: 5px 5px 20px white;
+    
+}
+#right_side h1{
+    color: red;
+}
+#status{
+    
+    background: black;
+    color: white;
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 20px;
+    /*padding: 1px;*/
+    font-size: 20px;
+}
+
+ #text{
+                border: 2px solid black;
+                height: 300px;
+                width: 600px;
+                
+                text-align: left;
+            }
+            
+#another_file{
+    text-decoration: none;
+    color: red;
+}
+
+#file_list{
+    text-decoration: none;
+    
+    color: white;
+    font-size: 20px;
+    
+}
+ul li{
+    list-style: decimal;
+}
+#file_list:hover{
+    position: relative;
+    left: 10px;
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+}
+
+#down{
+    float: left;
+    position: relative;
+    left: 100px;
+    border-radius: 25px;
+    border: 7px solid red;
+    height: 100px;
+    width: 700px;
+    text-align: center;
+    background: white;
+    padding-top: 50px;
+}
